@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.TextView;
-// import android.widget.Toast;   // Only use this if there is a Toast message.
+// import android.widget.Toast;   => Only use this if there is a Toast message.
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
