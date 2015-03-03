@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.TextView;
-// import android.widget.Toast;   => Only use this if there is a Toast message.
+// import android.widget.Toast;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -60,7 +60,7 @@ public class SearchActivity extends ActionBarActivity {
 
     private void setupViews() {
         etQuery = (EditText) findViewById(R.id.etQuery);
-        // / Whenever you want to locate a template associated with the activity, use 'findViewbyId', then specify the ID you are looking for.
+        // Whenever you want to locate a template associated with the activity, use 'findViewbyId', then specify the ID you are looking for.
         gvResults = (GridView) findViewById(R.id.gvResults);
 
 
@@ -111,6 +111,7 @@ public class SearchActivity extends ActionBarActivity {
             String searchUrl = "https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=" + query + "&rsz=8";   // Google Image Search API
 
             client.get(searchUrl, new JsonHttpResponseHandler() {
+
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 Log.d("DEBUG", response.toString());
@@ -141,8 +142,6 @@ public class SearchActivity extends ActionBarActivity {
         });
 
     }
-
-
 
 
 
