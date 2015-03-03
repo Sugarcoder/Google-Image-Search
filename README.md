@@ -1,6 +1,5 @@
 <h3>Google Image Search App</h3>
 ===========================
-
 This is an Android app based on Google's Image Search, powered by Google Image Search API, Android Async Http Client, and Picasso. 
 
 <h4>Features:</h4>
