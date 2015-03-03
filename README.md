@@ -1,1 +1,1 @@
-This is a Google Image Search app for Android.
+<h1>Google Image Search</h1>
