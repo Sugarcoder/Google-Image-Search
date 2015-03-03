@@ -37,7 +37,6 @@ public class SearchActivity extends ActionBarActivity {
     private ImageResultsAdapter aImageResults;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +52,6 @@ public class SearchActivity extends ActionBarActivity {
 
         // Link the adapter to the adapter view (GridView)
         gvResults.setAdapter(aImageResults);
-
 
     }
 
@@ -94,11 +92,9 @@ public class SearchActivity extends ActionBarActivity {
     }
 
 
-
     // This will be fired whenever the button is pressed (Android onClick)
 
     public void onImageSearch(View v) {
-
 
         String query = etQuery.getText().toString();      // converts the 'editable' to a string
 
@@ -128,7 +124,6 @@ public class SearchActivity extends ActionBarActivity {
 
                     // Instead of imageResults, you can use aImageResults to update the array list through the adapter.
 
-
                     // One way:  aImageResults.notifyDataSetChanged();      This notifies the adapter that there is new item added, so the adapter will make the changes.
 
                 } catch (JSONException e) {
@@ -138,11 +133,8 @@ public class SearchActivity extends ActionBarActivity {
                 Log.i("INFO", imageResults.toString());
 
             }
-
         });
-
     }
-
 
 
     @Override
