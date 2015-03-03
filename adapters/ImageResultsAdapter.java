@@ -26,6 +26,8 @@ public class ImageResultsAdapter extends ArrayAdapter<ImageResult> {
         super(context, R.layout.image_result, images);
     }
 
+
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
