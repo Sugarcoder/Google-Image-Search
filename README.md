@@ -9,7 +9,7 @@
 - User can scroll down “infinitely” to continue loading more image results.
 
 <br>
-<img src="http://i1369.photobucket.com/albums/ag238/sugarcoder/CodePath/GoogleImage_zpslr8mff2i.png" border="0" alt=" photo GoogleImage_zpslr8mff2i.png" width="300" height="400" />
+<img src="http://i1369.photobucket.com/albums/ag238/sugarcoder/CodePath/GoogleImage_zpslr8mff2i.png" border="0" width="300" height="400" />
 
 
 ### APIs & Libraries: 
