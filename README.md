@@ -8,8 +8,8 @@
 - User can tap on any image in results to see the image full-screen.
 - User can scroll down “infinitely” to continue loading more image results.
 
-
-<a href="http://s1369.photobucket.com/user/sugarcoder/media/CodePath/GoogleImage_zpslr8mff2i.png.html" target="_blank"><img src="http://i1369.photobucket.com/albums/ag238/sugarcoder/CodePath/GoogleImage_zpslr8mff2i.png" border="0" alt=" photo GoogleImage_zpslr8mff2i.png" width="300" height="400" /></a>
+<br>
+<img src="http://i1369.photobucket.com/albums/ag238/sugarcoder/CodePath/GoogleImage_zpslr8mff2i.png" border="0" alt=" photo GoogleImage_zpslr8mff2i.png" width="300" height="400" />
 
 
 ### APIs & Libraries: 
