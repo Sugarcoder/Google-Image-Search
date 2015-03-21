@@ -1,12 +1,22 @@
-<h3>Google Image Search App</h3>
-===========================
-- This is an Android app based on Google's Image Search taught by CodePath.
-- Powered by Google Image Search API, Android Async Http Client, and Picasso. 
+# Google Image Search
 
-<h4>Features:</h4>
+- This is a Google Image Search application allowing the user to search for images. 
+
+## Features:
+
 - User can enter a search query that will display a grid of image results from the Google Image API.
 - User can tap on any image in results to see the image full-screen.
 - User can scroll down “infinitely” to continue loading more image results.
 
+
+### APIs & Libraries: 
+
+- Google Image Search API
+- android-async-http
+- Picasso
+
+### Acknowledgements: 
+
+<a href="http://www.codepath.com">CodePath</a>
 
 
