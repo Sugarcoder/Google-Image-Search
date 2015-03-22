@@ -2,7 +2,7 @@
 
 - This is a Google Image Search application allowing the user to search for images. 
 
-## Features:
+### User Stories:
 
 - User can enter a search query that will display a grid of image results from the Google Image API.
 - User can tap on any image in results to see the image full-screen.
